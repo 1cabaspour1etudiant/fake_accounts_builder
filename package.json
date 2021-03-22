@@ -1,0 +1,8 @@
+{
+  "name": "fake_accounts_builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1cabaspour1etudiant/fake_accounts_builder.git",
+  "author": "kecsou <kevin.voyer.developpeur@gmail.com>",
+  "license": "MIT"
+}
