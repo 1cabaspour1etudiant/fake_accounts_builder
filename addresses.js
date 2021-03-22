@@ -10,8 +10,4 @@ console.time('Parsing file');
 const addresses = JSON.parse(contentFile);
 console.timeEnd('Parsing file');
 
-module.exports = addresses.map(({ fields:{ column_2, column_3, column_4, column_5 } }) => ({
-    address: `${column_2} ${column_3}`,
-    city: column_5,
-    zipCode: ''+column_4,
-}));
+module.exports = addresses;
