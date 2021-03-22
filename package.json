@@ -5,6 +5,9 @@
   "repository": "git@github.com:1cabaspour1etudiant/fake_accounts_builder.git",
   "author": "kecsou <kevin.voyer.developpeur@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
