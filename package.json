@@ -6,7 +6,9 @@
   "author": "kecsou <kevin.voyer.developpeur@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "run": "tsc && node build/index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
